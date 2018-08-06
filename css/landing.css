@@ -48,9 +48,7 @@ header {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 h1 {
@@ -169,8 +167,6 @@ h3 {
     padding: 10px;
     margin: 10px;
     border: solid 2px #4b6779;
-    /* margin-right: 30px;
-    margin-bottom: 35px; */
 }
 
 .name {
@@ -218,7 +214,6 @@ footer {
 
 .footNav{
     list-style: none;
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
@@ -240,7 +235,7 @@ footer {
     font-size: 15px;
     letter-spacing: 1px;
     margin-right: 30px;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .form input {
@@ -261,4 +256,6 @@ footer {
 
 .copyright {
 margin-bottom: 20px;
+padding-top: 40px;
+border-top: solid 2px black;
 }
